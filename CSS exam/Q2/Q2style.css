@@ -1,0 +1,98 @@
+/* Styling a Blog Post
+
+﻿Instruction/Text linked with this question​In this task, you are required to style a blog post by adjusting text size, line spacing, margins, and text colors. It evaluates their ability to create visually appealing and readable content. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+
+
+.card {
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #f4f4f4;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.date span {
+    display: block;
+    font-size: 14px;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #4f7661;
+}
+
+.content {
+    padding: 16px;
+}
+
+.content h4 {
+    color: #5a885e;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "public sans", sans-serif;
+    letter-spacing: 3.2px;
+    padding: 10px 0;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin: 8px 0;
+    font-family: "tenor sans", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    padding: 10px 0;
+}
+
+.read-more {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    
+}
