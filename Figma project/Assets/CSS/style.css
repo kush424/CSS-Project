@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(153, 88, 42);
+    --secondary-color: #432818;
+    --third-color: #FFB703;
+    --dark-color: #000;
+    --white: #fff;
+    --bgcolor: #EFF6F4;
+    --fs: 16px;
+    --fw: 400;
+    --lh: 1.5;
+    --gw: 15px;
+    --title-text: "Playfair Display";
+    --discription-text: "Montserrat";
+    --special-text: "Poppins";
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--dark-color);
+    font-family: var(--discription-text);
+    font-size: var(--fs);
+    font-weight: var(--fw);
+    line-height: var(--lh);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-text);
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+}
+
+.col-1 {
+    width: 8.3333%;
+}
+
+.col-2 {
+    width: 16.6666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-5 {
+    width: 41.6666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333%;
+}
+
+.col-8 {
+    width: 66.6666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333%;
+}
+
+.col-11 {
+    width: 91.6666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+.py-130{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.pt-130{
+    padding-top: 130px;
+}
+.pb-130{
+    padding-bottom: 130px;
+}
+
+
+/* top bar  */
+.top-bar{
+    background-color:rgba(77, 38, 10, 0.5) ;
+    padding: 10px 0;
+}
+
+
+.contact-info ul{
+    display: flex;
+    column-gap: 15px;
+}
+
+.social-icons ul{
+    display: flex;
+    column-gap: 15px;
+}
+
+.social-icons ul li a,
+.contact-info ul li a {
+    display: block;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+/* navbar  */
+
+.navbar{
+    background-color: var(--primary-color);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    padding: 40px 20px;
+    color: var(--white);
+}
+
+.navicone{
+   justify-content: end;
+}
+
+.navicone ul li a i{
+    padding: 40px 20px;
+    color: var(--white);
+    
+}
+
+.navicone ul li a i:hover{
+    color: var(--secondary-color);
+}
+
+/* hero  */
+
+.hero{
+    background-image: url('../img/header_image.png');
+    background-repeat: no-repeat;
+    height: 700px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-info h2{
+    font-size: 60px;
+    color: white;
+    padding-top: 10%;
+    font-family: var(--title-text);
+    text-align: left;
+}
+
+.hero-info span{
+    font-size: 60px;
+    color: var(--third-color);
+    font-weight: 600;
+
+}
+
+.hero-info  p{
+    font-size: 15px;
+    color: white;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.lastimg img{
+    padding-top: 100px;
+    width: 100%;
+    /* height: px; */
+   
+}
+
+.downbutton{
+    height: 104px;
+    width: 74px;
+    background-color: #6F1D1B;
+    left: 950px;
+    bottom: -35px;
+    position: absolute;
+}
+.downbutton {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    line-height: 80px;
+}
+
+/* 2nd section patnar  */
+.owns{
+    background-color: #FFFCEF;
+}
+.partnerimg img{
+    padding-top: 20%;
+    display: flex;
+}
+.partner-details h2{
+    padding-top: 30%;
+    font-size: 35px;
+    font-family: var(--title-text);
+    color: var(--secondary-color);
+}
+.partner-details p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: var(--special-text);
+}
